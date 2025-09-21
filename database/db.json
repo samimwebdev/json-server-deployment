@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Samim",
+      "email": "samim@example.com",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Rahim",
+      "email": "rahim@example.com",
+      "role": "student"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Learning JavaScript",
+      "content": "JavaScript is a versatile programming language for the web.",
+      "authorId": 1
+    },
+    {
+      "id": 2,
+      "title": "React Basics",
+      "content": "React helps you build UI with reusable components.",
+      "authorId": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "userId": 2,
+      "text": "Very helpful article!"
+    },
+    {
+      "id": 2,
+      "postId": 2,
+      "userId": 1,
+      "text": "Great explanation on components."
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "JavaScript Bootcamp",
+      "price": 299,
+      "category": "course"
+    },
+    {
+      "id": 2,
+      "name": "React Bootcamp",
+      "price": 399,
+      "category": "course"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 2,
+      "productId": 1,
+      "status": "completed"
+    }
+  ]
+}
